@@ -81,7 +81,7 @@ const FoodCard = ({ item }) => {
             <p className="text-sm sm:text-base md:text-l">{recipe}</p>
     
             <div className="card-actions flex flex-col sm:flex-row justify-between items-center mt-4">
-                <p className="text-l sm:text-2xl text-yellow-600">৳{price}</p>
+                <p className="text-l sm:text-2xl text-yellow-500">৳{price}</p>
                 <div className="flex space-x-2">
                     <button
                         className="btn btn-outline border-0 border-b-4 bg-slate-100 border-amber-900 mt-2 sm:mt-0"
